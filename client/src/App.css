@@ -1,0 +1,109 @@
+body {
+
+    margin: 0;
+    background: #f4f6f9;
+    font-family: "Yu Gothic", sans-serif;
+
+}
+
+.container {
+
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+h2{
+
+    margin-top:35px;
+
+}
+
+.recordButton{
+
+    display:block;
+
+    margin:auto;
+
+    background:#1976d2;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:15px 40px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+
+.recordButton:hover{
+
+    background:#1565c0;
+
+}
+
+textarea{
+
+    width:100%;
+
+    box-sizing:border-box;
+
+    font-size:16px;
+
+    padding:15px;
+
+    margin-top:10px;
+
+    resize:vertical;
+
+}
+
+.stopButton{
+
+    display:block;
+
+    margin:auto;
+
+    background:#d32f2f;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:15px 40px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+
+.stopButton:hover{
+
+    background:#b71c1c;
+
+}
